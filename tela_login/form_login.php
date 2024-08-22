@@ -14,12 +14,12 @@
     </header>
     <main>
         <?php
-        $name = $_POST["nome"];
-        $last_name = $_POST["sobrenome"];
+            $name = $_POST["nome"];
+            $last_name = $_POST["sobrenome"];
 
-        $username = strtolower($name."_".$last_name);
+            $username = strtolower($name."_".$last_name);
 
-        echo "Olá $name $last_name. Seu usuário é: $username"
+            echo "Olá $name $last_name. Seu usuário é: $username"
         ?>
     </main>
 </body>
